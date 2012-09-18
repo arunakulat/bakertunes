@@ -1,0 +1,42 @@
+name = Bakertunes install profile
+description = Starter instalation profile for www.bakertunes.co.uk
+version = VERSION
+core = 7.x
+
+; Development modules
+# dependencies[] = admin
+dependencies[] = admin_menu
+dependencies[] = devel
+dependencies[] = module_filter
+
+; Core modules
+dependencies[] = block
+dependencies[] = blog
+dependencies[] = contact
+dependencies[] = dblog
+dependencies[] = comment
+dependencies[] = field_ui
+dependencies[] = list
+dependencies[] = taxonomy
+dependencies[] = menu
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = number
+dependencies[] = contextual
+
+; Contrib modules
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = context
+dependencies[] = context_ui
+dependencies[] = features
+dependencies[] = ctools
+dependencies[] = ds
+dependencies[] = ds_extras
+dependencies[] = media
+dependencies[] = pathauto
+dependencies[] = strongarm
+dependencies[] = custom_breadcrumbs
+dependencies[] = token
+dependencies[] = elements
+dependencies[] = html5_tools
