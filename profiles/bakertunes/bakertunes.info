@@ -11,7 +11,6 @@ dependencies[] = module_filter
 
 ; Core modules
 dependencies[] = block
-dependencies[] = blog
 dependencies[] = contact
 dependencies[] = dblog
 dependencies[] = comment
@@ -40,3 +39,7 @@ dependencies[] = custom_breadcrumbs
 dependencies[] = token
 dependencies[] = elements
 dependencies[] = html5_tools
+dependencies[] = fpa
+dependencies[] = module_filter
+dependencies[] = menu_position
+dependencies[] = menu_block
