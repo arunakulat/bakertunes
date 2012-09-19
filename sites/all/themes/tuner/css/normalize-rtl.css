@@ -7,7 +7,7 @@
  */
 /* line 14, ../sass/normalize-rtl.scss */
 dd {
-  margin: 0 30px 0 0;
+  margin: 0 20px 0 0;
 }
 
 /*
@@ -18,7 +18,7 @@ menu,
 ol,
 ul,
 .item-list ul {
-  padding: 0 30px 0 0;
+  padding: 0 20px 0 0;
 }
 
 /* =============================================================================

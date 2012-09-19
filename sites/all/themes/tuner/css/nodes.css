@@ -90,3 +90,11 @@
   text-align: center;
   word-wrap: break-word;
 }
+
+/* line 67, ../sass/nodes.scss */
+.node-teaser .field-name-submitted-by {
+  font-family: Georgia, "Times New Roman", "DejaVu Serif", serif;
+  font-style: italic;
+  color: #1c2529;
+  margin-bottom: 10px;
+}

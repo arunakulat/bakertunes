@@ -142,6 +142,7 @@ textarea {
 
 body {
   margin: 0;
+  color: $midnight;
 }
 
 
@@ -155,16 +156,24 @@ body {
  */
 
 a:link {
+  color: $blue;
+  text-decoration: none;
 }
 
 a:visited {
+  color: $blue;
+  text-decoration: none;
 }
 
 a:hover,
 a:focus {
+  color: $blue;
+  text-decoration: underline;
 }
 
 a:active {
+  color: $lilac;
+  text-decoration: underline;
 }
 
 /*
@@ -208,12 +217,17 @@ h1 {
   /* Sets 1 unit of vertical rhythm on the top and bottom margins. */
   @include leader(1, $h1-font-size);
   @include trailer(1, $h1-font-size);
+  text-transform: uppercase;
+  font-family: $arial-narrow;
 }
 
 h2 {
   @include adjust-font-size-to( $h2-font-size );
   @include leader(1, $h2-font-size);
   @include trailer(1, $h2-font-size);
+  text-transform: uppercase;
+  font-family: $georgia;
+  font-weight: normal;
 }
 
 h3 {

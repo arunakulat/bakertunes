@@ -43,3 +43,23 @@
     }
   }
 }
+
+.view-display-id-page {
+  .view-header {
+    text-align: center;
+    font-family: $georgia;
+    font-weight: bold;
+    border-bottom: 1px solid $pale;
+    margin-bottom: 2*zen-half-gutter();
+  }
+  .views-row {
+    padding-bottom: zen-half-gutter();
+    margin-bottom: zen-half-gutter();
+    border-bottom: 1px solid $pale;
+  }
+  .views-row-last {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: 0;
+  }
+}

@@ -53,3 +53,24 @@
   -o-border-radius: 0 0 7px 7px;
   border-radius: 0 0 7px 7px;
 }
+
+/* line 48, ../sass/views-styles.scss */
+.view-display-id-page .view-header {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", "DejaVu Serif", serif;
+  font-weight: bold;
+  border-bottom: 1px solid #ccddee;
+  margin-bottom: 20px;
+}
+/* line 55, ../sass/views-styles.scss */
+.view-display-id-page .views-row {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccddee;
+}
+/* line 60, ../sass/views-styles.scss */
+.view-display-id-page .views-row-last {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom: 0;
+}

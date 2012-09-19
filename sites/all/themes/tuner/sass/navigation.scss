@@ -46,6 +46,8 @@ li a.active {
 
 #navigation {
   /* overflow: hidden; */ /* Sometimes you want to prevent overlapping with main div. */
+  background-color: $slate;
+  color: $white;
 
   .block {
     margin-bottom: 0;
@@ -67,6 +69,26 @@ li a.active {
       padding: 0 10px 0 0; /* LTR */
       list-style-type: none;
       list-style-image: none;
+      
+      a {
+        display: block;
+        padding: 0 zen-half-gutter();
+        text-transform: uppercase;
+        font-family: $arial-narrow;
+        @include adjust-font-size-to($h4-font-size, 2.1);
+        color: $pale;
+        text-decoration: none;
+        
+        &:hover {
+          color: $white;
+        }
+        &.active,
+        &.active-trail {
+          color: $white;
+          background: url(../images/menu-active.png) 50% 100% no-repeat;
+        }
+      }
+      
     }
   }
 }

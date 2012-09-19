@@ -15,7 +15,7 @@
 /*
  * Center the page.
  */
-/* line 44, ../../sass/layouts/responsive-sidebars.scss */
+/* line 44, /Users/joebaker/Projects/vagrant/personal/bakertunes.co.uk/sites/all/themes/tuner/sass/layouts/responsive-sidebars.scss */
 #page,
 .region-bottom {
   /* For screen sizes larger than 1200px, prevent excessively long lines of text
@@ -28,7 +28,7 @@
 /*
  * Apply the shared properties of grid items in a single, efficient ruleset.
  */
-/* line 62, ../../sass/layouts/responsive-sidebars.scss */
+/* line 62, /Users/joebaker/Projects/vagrant/personal/bakertunes.co.uk/sites/all/themes/tuner/sass/layouts/responsive-sidebars.scss */
 #header,
 #content,
 #navigation,
@@ -42,12 +42,13 @@
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   word-wrap: break-word;
+  padding: 0 20px;
 }
 
 /*
  * Containers for grid items and flow items.
  */
-/* line 52, ../../sass-extensions/zen-grids/stylesheets/zen/_grids.scss */
+/* line 52, /Users/joebaker/Projects/vagrant/personal/bakertunes.co.uk/sites/all/themes/tuner/sass-extensions/zen-grids/stylesheets/zen/_grids.scss */
 #header:before, #header:after,
 #main:before,
 #main:after,
@@ -56,25 +57,31 @@
   content: "";
   display: table;
 }
-/* line 56, ../../sass-extensions/zen-grids/stylesheets/zen/_grids.scss */
+/* line 56, /Users/joebaker/Projects/vagrant/personal/bakertunes.co.uk/sites/all/themes/tuner/sass-extensions/zen-grids/stylesheets/zen/_grids.scss */
 #header:after,
 #main:after,
 #footer:after {
   clear: both;
 }
 
+/* line 77, /Users/joebaker/Projects/vagrant/personal/bakertunes.co.uk/sites/all/themes/tuner/sass/layouts/responsive-sidebars.scss */
+#content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 /*
  * Navigation bar
  */
 @media all and (min-width: 480px) {
-  /* line 81, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 87, /Users/joebaker/Projects/vagrant/personal/bakertunes.co.uk/sites/all/themes/tuner/sass/layouts/responsive-sidebars.scss */
   #main {
     padding-top: 3em;
     /* Move all the children of #main down to make room. */
     position: relative;
   }
 
-  /* line 85, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 91, /Users/joebaker/Projects/vagrant/personal/bakertunes.co.uk/sites/all/themes/tuner/sass/layouts/responsive-sidebars.scss */
   #navigation {
     position: absolute;
     top: 0;
@@ -90,7 +97,7 @@
   /*
    * The layout when there is only one sidebar, the left one.
    */
-  /* line 104, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 110, /Users/joebaker/Projects/vagrant/personal/bakertunes.co.uk/sites/all/themes/tuner/sass/layouts/responsive-sidebars.scss */
   .sidebar-first #content {
     /* Span 2 columns, starting in 2nd column from left. */
     float: right;
@@ -98,7 +105,7 @@
     margin-right: 33.333%;
     margin-left: -100%;
   }
-  /* line 108, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 114, /Users/joebaker/Projects/vagrant/personal/bakertunes.co.uk/sites/all/themes/tuner/sass/layouts/responsive-sidebars.scss */
   .sidebar-first .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: right;
@@ -110,7 +117,7 @@
   /*
    * The layout when there is only one sidebar, the right one.
    */
-  /* line 118, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 124, /Users/joebaker/Projects/vagrant/personal/bakertunes.co.uk/sites/all/themes/tuner/sass/layouts/responsive-sidebars.scss */
   .sidebar-second #content {
     /* Span 2 columns, starting in 1st column from left. */
     float: right;
@@ -118,7 +125,7 @@
     margin-right: 0%;
     margin-left: -66.667%;
   }
-  /* line 122, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 128, /Users/joebaker/Projects/vagrant/personal/bakertunes.co.uk/sites/all/themes/tuner/sass/layouts/responsive-sidebars.scss */
   .sidebar-second .region-sidebar-second {
     /* Span 1 column, starting in 3rd column from left. */
     float: right;
@@ -130,7 +137,7 @@
   /*
    * The layout when there are two sidebars.
    */
-  /* line 132, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 138, /Users/joebaker/Projects/vagrant/personal/bakertunes.co.uk/sites/all/themes/tuner/sass/layouts/responsive-sidebars.scss */
   .two-sidebars #content {
     /* Span 2 columns, starting in 2nd column from left. */
     float: right;
@@ -138,7 +145,7 @@
     margin-right: 33.333%;
     margin-left: -100%;
   }
-  /* line 136, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 142, /Users/joebaker/Projects/vagrant/personal/bakertunes.co.uk/sites/all/themes/tuner/sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: right;
@@ -146,7 +153,7 @@
     margin-right: 0%;
     margin-left: -33.333%;
   }
-  /* line 140, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 146, /Users/joebaker/Projects/vagrant/personal/bakertunes.co.uk/sites/all/themes/tuner/sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-second {
     /* Start a new row and span all 3 columns. */
     float: right;
@@ -157,7 +164,7 @@
     padding-right: 0;
     clear: right;
   }
-  /* line 145, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 151, /Users/joebaker/Projects/vagrant/personal/bakertunes.co.uk/sites/all/themes/tuner/sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-second .block {
     padding-left: 10px;
     padding-right: 10px;
@@ -167,7 +174,7 @@
     box-sizing: border-box;
     word-wrap: break-word;
   }
-  /* line 148, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 154, /Users/joebaker/Projects/vagrant/personal/bakertunes.co.uk/sites/all/themes/tuner/sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n+1) {
     /* Span 1 column, starting in the 1st column from left. */
     float: right;
@@ -176,7 +183,7 @@
     margin-left: -33.333%;
     clear: right;
   }
-  /* line 152, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 158, /Users/joebaker/Projects/vagrant/personal/bakertunes.co.uk/sites/all/themes/tuner/sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n+2) {
     /* Span 1 column, starting in the 2nd column from left. */
     float: right;
@@ -184,7 +191,7 @@
     margin-right: 33.333%;
     margin-left: -66.667%;
   }
-  /* line 155, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 161, /Users/joebaker/Projects/vagrant/personal/bakertunes.co.uk/sites/all/themes/tuner/sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-second .block:nth-child(3n) {
     /* Span 1 column, starting in the 3rd column from left. */
     float: right;
@@ -200,7 +207,7 @@
   /*
    * The layout when there is only one sidebar, the left one.
    */
-  /* line 173, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 179, /Users/joebaker/Projects/vagrant/personal/bakertunes.co.uk/sites/all/themes/tuner/sass/layouts/responsive-sidebars.scss */
   .sidebar-first #content {
     /* Span 4 columns, starting in 2nd column from left. */
     float: right;
@@ -208,7 +215,7 @@
     margin-right: 20%;
     margin-left: -100%;
   }
-  /* line 177, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 183, /Users/joebaker/Projects/vagrant/personal/bakertunes.co.uk/sites/all/themes/tuner/sass/layouts/responsive-sidebars.scss */
   .sidebar-first .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: right;
@@ -220,7 +227,7 @@
   /*
    * The layout when there is only one sidebar, the right one.
    */
-  /* line 187, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 193, /Users/joebaker/Projects/vagrant/personal/bakertunes.co.uk/sites/all/themes/tuner/sass/layouts/responsive-sidebars.scss */
   .sidebar-second #content {
     /* Span 4 columns, starting in 1st column from left. */
     float: right;
@@ -228,7 +235,7 @@
     margin-right: 0%;
     margin-left: -80%;
   }
-  /* line 191, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 197, /Users/joebaker/Projects/vagrant/personal/bakertunes.co.uk/sites/all/themes/tuner/sass/layouts/responsive-sidebars.scss */
   .sidebar-second .region-sidebar-second {
     /* Span 1 column, starting in 5th column from left. */
     float: right;
@@ -240,7 +247,7 @@
   /*
    * The layout when there are two sidebars.
    */
-  /* line 201, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 207, /Users/joebaker/Projects/vagrant/personal/bakertunes.co.uk/sites/all/themes/tuner/sass/layouts/responsive-sidebars.scss */
   .two-sidebars #content {
     /* Span 3 columns, starting in 2nd column from left. */
     float: right;
@@ -248,7 +255,7 @@
     margin-right: 20%;
     margin-left: -80%;
   }
-  /* line 205, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 211, /Users/joebaker/Projects/vagrant/personal/bakertunes.co.uk/sites/all/themes/tuner/sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-first {
     /* Span 1 column, starting in 1st column from left. */
     float: right;
@@ -256,7 +263,7 @@
     margin-right: 0%;
     margin-left: -20%;
   }
-  /* line 209, ../../sass/layouts/responsive-sidebars.scss */
+  /* line 215, /Users/joebaker/Projects/vagrant/personal/bakertunes.co.uk/sites/all/themes/tuner/sass/layouts/responsive-sidebars.scss */
   .two-sidebars .region-sidebar-second {
     /* Span 1 column, starting in 5th column from left. */
     float: right;

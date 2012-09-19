@@ -93,7 +93,7 @@
 /* line 74, ../sass/comments.scss */
 .indented {
   /* Nested comments are indented */
-  margin-left: 30px;
+  margin-left: 20px;
   /* Drupal core uses a 25px left margin */
 }
 

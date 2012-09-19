@@ -39,12 +39,14 @@ li a.active {
 #navigation {
   /* overflow: hidden; */
   /* Sometimes you want to prevent overlapping with main div. */
+  background-color: #1c2529;
+  color: white;
 }
-/* line 50, ../sass/navigation.scss */
+/* line 52, ../sass/navigation.scss */
 #navigation .block {
   margin-bottom: 0;
 }
-/* line 55, ../sass/navigation.scss */
+/* line 57, ../sass/navigation.scss */
 #navigation .block-menu .block-title,
 #navigation .block-menu-block .block-title {
   position: absolute !important;
@@ -53,7 +55,7 @@ li a.active {
   overflow: hidden;
   clip: rect(1px, 1px, 1px, 1px);
 }
-/* line 60, ../sass/navigation.scss */
+/* line 62, ../sass/navigation.scss */
 #navigation ul.links,
 #navigation ul.menu {
   /* Menu block links */
@@ -62,7 +64,7 @@ li a.active {
   text-align: left;
   /* LTR */
 }
-/* line 65, ../sass/navigation.scss */
+/* line 67, ../sass/navigation.scss */
 #navigation ul.links li,
 #navigation ul.menu li {
   /* A simple method to get navigation links to appear in one line. */
@@ -73,11 +75,35 @@ li a.active {
   list-style-type: none;
   list-style-image: none;
 }
+/* line 73, ../sass/navigation.scss */
+#navigation ul.links li a,
+#navigation ul.menu li a {
+  display: block;
+  padding: 0 10px;
+  text-transform: uppercase;
+  font-family: "Arial Narrow", Impact, Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-size: 1em;
+  line-height: 3em;
+  color: #ccddee;
+  text-decoration: none;
+}
+/* line 82, ../sass/navigation.scss */
+#navigation ul.links li a:hover,
+#navigation ul.menu li a:hover {
+  color: white;
+}
+/* line 86, ../sass/navigation.scss */
+#navigation ul.links li a.active, #navigation ul.links li a.active-trail,
+#navigation ul.menu li a.active,
+#navigation ul.menu li a.active-trail {
+  color: white;
+  background: url(../images/menu-active.png) 50% 100% no-repeat;
+}
 
 /*
  * Main menu and Secondary menu links
  */
-/* line 84, ../sass/navigation.scss */
+/* line 106, ../sass/navigation.scss */
 #secondary-menu {
   float: right;
   /* LTR */

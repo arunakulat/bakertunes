@@ -61,6 +61,7 @@ $zen-auto-include-item-base: false;
 .region-sidebar-second,
 #footer {
   @include zen-grid-item-base();
+  padding: 0 $indent-amount;
 }
 
 /*
@@ -71,6 +72,11 @@ $zen-auto-include-item-base: false;
 #main,
 #footer {
   @include zen-grid-container();
+}
+
+#content {
+  padding-top: $indent-amount;
+  padding-bottom: $indent-amount;
 }
 
 /*

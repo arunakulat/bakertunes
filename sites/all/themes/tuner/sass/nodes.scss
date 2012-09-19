@@ -62,3 +62,12 @@
     @include unpublished-div;
   }
 }
+
+.node-teaser {
+  .field-name-submitted-by {
+    font-family: $georgia;
+    font-style: italic;
+    color: $slate;
+    margin-bottom: zen-half-gutter();
+  }
+}

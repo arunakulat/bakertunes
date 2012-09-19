@@ -17,6 +17,8 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: $slate;
+  color: $white;
 }
 
 #page {
@@ -46,6 +48,7 @@ body {
  */
 
 #header {
+  padding: $indent-amount zen-half-gutter();
 }
 
 #logo { /* Wrapping link for logo */
@@ -69,7 +72,7 @@ body {
 
   a:link,
   a:visited {
-    color: #000;
+    color: $white;
     text-decoration: none;
   }
 
@@ -93,6 +96,8 @@ body {
  */
 
 #main {
+  background-color: $white;
+  color: $slate;
 }
 
 /*
@@ -106,6 +111,10 @@ body {
 }
 
 .breadcrumb { /* The path to the current page in the form of a list of links */
+  margin-bottom: zen-half-gutter();
+  @include adjust-font-size-to($h5-font-size, 1);
+  border-bottom: 1px solid $pale;
+  
   ol {
     margin: 0;
     padding: 0;
@@ -125,6 +134,13 @@ h2.title, /* Comment section heading */
 h2.comment-form, /* Comment form heading */
 h3.title { /* Comment title */
   margin: 0;
+}
+
+h1.title {
+  text-align: center;
+  @include adjust-font-size-to($h1-title-font-size, 2.8);
+  font-weight: bold;
+  margin-bottom: $indent-amount;
 }
 
 tr.even { /* Some tables have rows marked even or odd. */
