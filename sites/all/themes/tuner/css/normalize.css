@@ -239,18 +239,18 @@ h4 {
 
 /* line 245, ../sass/normalize.scss */
 h5 {
-  font-size: 0.83em;
-  line-height: 1.721em;
-  margin-top: 1.721em;
-  margin-bottom: 1.721em;
+  font-size: 0.857em;
+  line-height: 1.667em;
+  margin-top: 1.667em;
+  margin-bottom: 1.667em;
 }
 
 /* line 251, ../sass/normalize.scss */
 h6 {
-  font-size: 0.75em;
-  line-height: 1.905em;
-  margin-top: 1.905em;
-  margin-bottom: 1.905em;
+  font-size: 0.714em;
+  line-height: 2.001em;
+  margin-top: 2.001em;
+  margin-bottom: 2.001em;
 }
 
 /* Thematic break */

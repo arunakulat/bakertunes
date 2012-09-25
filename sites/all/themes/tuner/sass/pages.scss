@@ -141,6 +141,7 @@ h1.title {
   @include adjust-font-size-to($h1-title-font-size, 2.8);
   font-weight: bold;
   margin-bottom: $indent-amount;
+  letter-spacing: -2px;
 }
 
 tr.even { /* Some tables have rows marked even or odd. */

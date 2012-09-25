@@ -54,7 +54,11 @@
   border-radius: 0 0 7px 7px;
 }
 
-/* line 48, ../sass/views-styles.scss */
+/* line 47, ../sass/views-styles.scss */
+.view-display-id-page {
+  margin-bottom: 20px;
+}
+/* line 50, ../sass/views-styles.scss */
 .view-display-id-page .view-header {
   text-align: center;
   font-family: Georgia, "Times New Roman", "DejaVu Serif", serif;
@@ -62,13 +66,13 @@
   border-bottom: 1px solid #ccddee;
   margin-bottom: 20px;
 }
-/* line 55, ../sass/views-styles.scss */
+/* line 57, ../sass/views-styles.scss */
 .view-display-id-page .views-row {
   padding-bottom: 10px;
   margin-bottom: 10px;
   border-bottom: 1px solid #ccddee;
 }
-/* line 60, ../sass/views-styles.scss */
+/* line 62, ../sass/views-styles.scss */
 .view-display-id-page .views-row-last {
   padding-bottom: 0;
   margin-bottom: 0;

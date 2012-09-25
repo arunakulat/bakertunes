@@ -91,10 +91,16 @@
   word-wrap: break-word;
 }
 
-/* line 67, ../sass/nodes.scss */
+/* line 70, ../sass/nodes.scss */
 .node-teaser .field-name-submitted-by {
   font-family: Georgia, "Times New Roman", "DejaVu Serif", serif;
   font-style: italic;
   color: #1c2529;
   margin-bottom: 10px;
+}
+/* line 76, ../sass/nodes.scss */
+.node-teaser .field-name-node-link {
+  margin-top: 10px;
+  font-size: 0.857em;
+  line-height: 1.429em;
 }

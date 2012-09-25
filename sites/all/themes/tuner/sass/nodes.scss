@@ -64,10 +64,17 @@
 }
 
 .node-teaser {
+  h2.title {
+    
+  }
   .field-name-submitted-by {
     font-family: $georgia;
     font-style: italic;
     color: $slate;
     margin-bottom: zen-half-gutter();
+  }
+  .field-name-node-link {
+    margin-top: zen-half-gutter();
+    @include adjust-font-size-to($h5-font-size, 0.857);
   }
 }
