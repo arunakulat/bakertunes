@@ -1,0 +1,32 @@
+/** Limit elements **/
+.commerce-file-limit-element .commerce-file-limit-element-value {
+  margin-left: 2em;
+}
+
+.commerce-file-limit-integer-element .commerce-file-limit-element-value,
+.commerce-file-limit-duration-element .commerce-file-limit-element-value .form-text {
+  text-align: center;
+}
+
+.commerce-file-limit-duration-element .container-inline div.description {
+  display: block;
+}
+
+/** Commerce File widget **/
+.tabledrag-processed tr.file-commerce-file .file-widget > .form-item,
+.tabledrag-processed tr.file-commerce-file .file-widget > fieldset {
+  margin-left: 2.5em;
+}
+
+.field-widget-commerce-file-generic .commerce-file-limit-element {
+  float: left;
+  display: inline;
+  vertical-align: top;
+  width: 30%;
+  max-width: 280px;
+  margin: 0 1.5% 1.5% 1.5%;
+}
+
+.field-widget-commerce-file-generic .commerce-file-limit-duration-element {
+  min-width: 180px;
+}
